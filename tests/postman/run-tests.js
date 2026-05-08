@@ -92,6 +92,7 @@ const newmanOptions = {
   },
   bail: argv.bail,
   timeoutRequest: argv.timeout,
+  insecure: true,
   delayRequest: 100 // Small delay between requests
 };
 
